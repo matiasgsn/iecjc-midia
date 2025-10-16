@@ -1,0 +1,14 @@
+table{
+    font-size: 5em;
+    width: 80%;
+}
+
+.colNome{
+    width: 70%;
+    display: none;
+}
+
+.colData{
+    width: 20%;
+    display: none;
+}
