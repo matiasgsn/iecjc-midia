@@ -1,14 +1,22 @@
 table{
-    font-size: 5em;
-    width: 80%;
+    font-size: 6em;
+    width: 65% !important;
+    height: 35% !important;
+}
+
+td{
+    outline: 7px solid #000000;
+    outline-offset: -0.3em; 
+}
+
+.colHead{
+    display: none;
 }
 
 .colNome{
-    width: 70%;
-    display: none;
+    width: 60%;
 }
 
 .colData{
     width: 20%;
-    display: none;
 }
