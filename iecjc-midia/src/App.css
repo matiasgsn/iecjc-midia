@@ -12,5 +12,5 @@ body{
 .tablewrap{
     width: 95vw;
     max-height: 80vh;
-    overflow-y: auto;
+    overflow-y: hidden;
 }

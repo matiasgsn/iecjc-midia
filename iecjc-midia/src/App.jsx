@@ -1,14 +1,19 @@
 import Table from "./Components/Table";
 import "./App.css"
+import { useEffect, useRef } from "react";
 
-function App() {
+export default function App() {
+  const overflowRef = useRef(null);
+
+  useEffect(() => {
+    if (!overflowRef.current) return;
+  }, []);
+
   return (
     <div className="wrapper d-flex justify-content-center align-items-center">
-      <div className="card p-3 tablewrap align-items-center">
-        <Table />
+      <div ref={overflowRef} className="card p-3 tablewrap align-items-center">
+        <Table overflowRef={overflowRef}/>
       </div>
     </div>
   )
 }
-
-export default App
