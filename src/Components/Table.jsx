@@ -11,12 +11,12 @@ import { useEffect, useState, forwardRef } from 'react';
     useEffect(() => {
         async function getDados (){
           const dados = [
-            { nome: "Teste1", aniversario: "24/08"},
-            { nome: "Teste1", aniversario: "24/08"},
-            { nome: "Teste1", aniversario: "24/08"},
-            { nome: "Teste1", aniversario: "24/08"},
-            { nome: "Teste1", aniversario: "24/08"},
-            { nome: "Teste2", aniversario: "10/07"}
+            { nome: "Nome 1", aniversario: "24/08"},
+            { nome: "Nome 2", aniversario: "02/03"},
+            { nome: "Nome 3", aniversario: "30/10"},
+            { nome: "Nome 4", aniversario: "03/01"},
+            { nome: "Nome 5", aniversario: "15/15"},
+            { nome: "Nome 6", aniversario: "10/07"}
           ]
 
           if (hasOverflow){

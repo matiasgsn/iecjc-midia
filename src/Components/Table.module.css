@@ -5,7 +5,7 @@ table{
 }
 
 .overflowed {
-    animation: scroll 30s linear infinite;
+    animation: scroll 45s linear infinite;
 }
 
 @keyframes scroll {
