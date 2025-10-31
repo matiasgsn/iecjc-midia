@@ -22,7 +22,6 @@ import { useEffect, useState, forwardRef } from 'react';
           if (hasOverflow){
             setDados(dados.concat(dados));
           } else {
-            console.log("AAAAAAAAA")
             setDados(dados);
           } 
           
